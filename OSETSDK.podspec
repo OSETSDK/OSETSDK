@@ -1,17 +1,41 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.1"  # 修改版本号
+  s.version      = "6.0.2"
   s.summary      = "AdSet广告对接聚合类"
+  s.description  = <<-DESC
+                    OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
+                    DESC
   s.homepage     = "https://github.com/OSETSDK/OSETSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
+  
+  # 设置最低支持版本（建议至少iOS 13）
   s.ios.deployment_target = '12.0'
-  s.source       = { :git => 'https://github.com/OSETSDK/OSETSDK.git', :tag => s.version }
-  # 添加外部依赖
-  s.vendored_frameworks = 'OSETSDK/*.{xcframework,framework}'
-  # 其他框架和资源
-  s.frameworks = ["Foundation", "UIKit"]
-s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
-
-
+  
+  # 源文件配置
+  s.source       = {
+    :git => 'https://github.com/OSETSDK/OSETSDK.git',
+    :tag => s.version.to_s
+  }
+  
+  # 主框架文件
+  s.vendored_frameworks = 'OSETSDK.xcframework'
+  
+  # 系统框架依赖
+  s.frameworks = "Foundation", "UIKit", "AdSupport", "CoreTelephony", "StoreKit", "SystemConfiguration"
+  
+  # 资源文件（如果有）
+  s.resources = "Resources/*.bundle"
+  
+  # 编译器设置
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+    'VALID_ARCHS' => 'arm64 armv7'
+  }
+  
+  # Swift版本设置
+  s.swift_version = '5.0'
+  
+  # 依赖项（如果有）
+  # s.dependency 'Alamofire', '~> 5.0'
 end
