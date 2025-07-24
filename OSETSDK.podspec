@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.6"
+  s.version      = "6.0.7"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   
   # 主框架文件
   # 检查 OSETSDK.podspec 关键字段
-  s.vendored_frameworks = 'OSETSDK/OSETSDK/OSETSDK.xcframework'
+  s.vendored_frameworks = 'OSETSDK.xcframework'
   
   # 系统框架依赖
   s.frameworks = "Foundation", "UIKit", "AdSupport", "CoreTelephony", "StoreKit", "SystemConfiguration"
