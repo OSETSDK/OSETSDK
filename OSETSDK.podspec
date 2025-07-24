@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.11"
+  s.version      = "6.0.12"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   # 编译器设置
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 x86_64',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 x86_64 ',
     'VALID_ARCHS' => 'arm64'
   }
 
@@ -39,36 +39,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   
   
-  # ================= 第三方依赖库 =================
-  
-  # 腾讯广点通
-  s.dependency 'GDTMobSDK'
-  
-  s.dependency 'KSAdSDK'
 
-  # 穿山甲（字节跳动）
-  s.dependency 'Ads-CN-Beta/BUAdSDK', '~> 6.9.0.6'
-  s.dependency 'Ads-CN-Beta/CSJMediation', '~> 6.9.0.6'
-  
-  # Sigmob
-  s.dependency 'SigmobAd-iOS'
-  
-  # 百度MobAdSDK
-  s.dependency 'BaiduMobAdSDK'
-  
-  # 倍至SDK
-  s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS'
-  
-  # 章鱼SDK
-  s.dependency 'OctopusSDK'
-  
-  # TanxSDK
-  s.dependency 'TanxSDK'
-  
-  # 京东广告SDK
-  s.dependency 'JADYun'
-  
-  # 趣盟广告SDK
-  s.dependency 'QuMengAdSDK'
   
 end
