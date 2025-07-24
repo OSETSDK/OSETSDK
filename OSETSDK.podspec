@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.3"
+  s.version      = "6.0.4"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
                     DESC
-  s.homepage     = "https://github.com/OSETSDK/OSETSDK"
+  s.homepage     = "https://github.com/OSETSDK"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   }
   
   # 主框架文件
+  # 检查 OSETSDK.podspec 关键字段
   s.vendored_frameworks = 'OSETSDK/OSETSDK.xcframework'
   
   # 系统框架依赖
@@ -42,7 +43,7 @@ Pod::Spec.new do |s|
   # 腾讯广点通
   s.dependency 'GDTMobSDK', '~> 4.15.40'
   
-  s.dependency 'KsAdSDK', '~> 3.3.76'
+  s.dependency 'KSAdSDK', '~> 3.3.76'
 
   # 穿山甲（字节跳动）
   s.dependency 'Ads-CN-Beta/BUAdSDK', '~> 6.9.0.6'
@@ -69,8 +70,4 @@ Pod::Spec.new do |s|
   # 趣盟广告SDK
   s.dependency 'QuMengAdSDK', '~> 1.3.4'
   
-  # 阿里云日志服务
-  s.dependency 'AliyunLogProducer', '~> 2.3.0'
-  
-  3.3.76
 end
