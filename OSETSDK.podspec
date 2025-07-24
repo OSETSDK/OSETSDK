@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.9"
+  s.version      = "6.0.10"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
   # 设置最低支持版本
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '12.0'
   
   # 源文件配置
   s.source       = {
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   # 腾讯广点通
   s.dependency 'GDTMobSDK', '~> 4.15.40'
   
-  s.dependency 'KSAdSDK', '~> 3.3.76'
+  s.dependency 'KSAdSDK'
 
   # 穿山甲（字节跳动）
   s.dependency 'Ads-CN-Beta/BUAdSDK', '~> 6.9.0.6'
