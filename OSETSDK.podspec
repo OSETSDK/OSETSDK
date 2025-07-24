@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.0.8"
+  s.version      = "6.0.9"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { 'shenshi' => 'yaohaofei@shenshiads.com' }
   
   # 设置最低支持版本
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
   
   # 源文件配置
   s.source       = {
@@ -30,9 +30,10 @@ Pod::Spec.new do |s|
   
   # 编译器设置
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 x86_64 ',
     'VALID_ARCHS' => 'arm64'
   }
+
   
   # Swift版本设置
   s.swift_version = '5.0'
