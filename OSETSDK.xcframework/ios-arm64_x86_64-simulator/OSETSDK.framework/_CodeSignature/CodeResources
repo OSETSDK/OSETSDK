@@ -409,10 +409,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/OSETAnswerAd.h</key>
-		<data>
-		tbIhkgQbcdma3VaRXqEJKnozY5A=
-		</data>
 		<key>Headers/OSETBannerAd.h</key>
 		<data>
 		ikkSMIngV2yBfmi5r1nQma3gWHY=
@@ -424,30 +420,6 @@
 		<key>Headers/OSETBaseView.h</key>
 		<data>
 		Bo2+U1SMEVMG2P0CsxHSw0aE4ws=
-		</data>
-		<key>Headers/OSETCalendarAd.h</key>
-		<data>
-		RzaEoinkeV7tt91R0irV25u18Zc=
-		</data>
-		<key>Headers/OSETConstellatoryAd.h</key>
-		<data>
-		qGm1zYdtKGfqGYwYIsT1I0CeulE=
-		</data>
-		<key>Headers/OSETConsult.h</key>
-		<data>
-		fIK/3O6lcOi4fuoOd2VS6JuguHE=
-		</data>
-		<key>Headers/OSETCorrespondenceAd.h</key>
-		<data>
-		SZjzM0gh54wVBvdV+MEP8xkYje0=
-		</data>
-		<key>Headers/OSETCrazyDreamAd.h</key>
-		<data>
-		RXyEyZ2n9bMI3FzqzNU5l3/OAdI=
-		</data>
-		<key>Headers/OSETDialAd.h</key>
-		<data>
-		z2Eg3A3C15LKUvLvdQEyIev0ffM=
 		</data>
 		<key>Headers/OSETDrawAd.h</key>
 		<data>
@@ -477,10 +449,6 @@
 		<data>
 		Sy515gSK9bwe06osac5sbcAbfuU=
 		</data>
-		<key>Headers/OSETLootTreasureAd.h</key>
-		<data>
-		/NczsavD8mYESO/f1fDTTSMyAUA=
-		</data>
 		<key>Headers/OSETManager.h</key>
 		<data>
 		4/Op1zoqC06PHSe+WX5Q/JDSxvY=
@@ -495,27 +463,11 @@
 		</data>
 		<key>Headers/OSETSDK.h</key>
 		<data>
-		KzFF8NaOfV2pSVpf2HZ8aEN5DPY=
+		W+n5/f7NM3h8XOH4w9vaeR8FePw=
 		</data>
 		<key>Headers/OSETSplashAd.h</key>
 		<data>
 		gxxGLd2a6+yj0xzRW6l5D9AtNl4=
-		</data>
-		<key>Headers/OSETSuspendAd.h</key>
-		<data>
-		Sgz7QmKj/wN3stBfVKdaI2Qzr3U=
-		</data>
-		<key>Headers/OSETWeatherAd.h</key>
-		<data>
-		iPYBVu4hR7O3oHFyX4mKk6gJSA4=
-		</data>
-		<key>Headers/OSETWebDialAd.h</key>
-		<data>
-		ZYg8swcQ2kZxRFvrWDqWYRc8Xe8=
-		</data>
-		<key>Headers/OSETYDConsult.h</key>
-		<data>
-		SiPDfymlAqDPKmuPU/MAz6AcLFk=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -772,10 +724,6 @@
 		<key>OSETSDK.bundle/voice_silent@3x.png</key>
 		<data>
 		DqP8GyPOd5i9JujtWf4z2buWzyo=
-		</data>
-		<key>OSETTaskTableViewCell.nib</key>
-		<data>
-		z8kb29chZqeSof4fB1ZS62Gyo4s=
 		</data>
 		<key>OctAdSDK.bundle/Info.plist</key>
 		<data>
@@ -2209,17 +2157,6 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Headers/OSETAnswerAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tbIhkgQbcdma3VaRXqEJKnozY5A=
-			</data>
-			<key>hash2</key>
-			<data>
-			dgYp83yxZioAL6Odop+A5wxO3d3ybf1YKy+vbZG2GW4=
-			</data>
-		</dict>
 		<key>Headers/OSETBannerAd.h</key>
 		<dict>
 			<key>hash</key>
@@ -2251,72 +2188,6 @@
 			<key>hash2</key>
 			<data>
 			BILGrE57RyashFrClf2hrz2X2eDodm3OxkJYsl52/Jc=
-			</data>
-		</dict>
-		<key>Headers/OSETCalendarAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RzaEoinkeV7tt91R0irV25u18Zc=
-			</data>
-			<key>hash2</key>
-			<data>
-			sXYwrvvwH0jUp7RoPbSO3G8eX7mmhUdxjFBNr5pkUZY=
-			</data>
-		</dict>
-		<key>Headers/OSETConstellatoryAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qGm1zYdtKGfqGYwYIsT1I0CeulE=
-			</data>
-			<key>hash2</key>
-			<data>
-			DhFYITYbFZWhO3U9UOEoJDfyduNTR8KEQ/C9e3KPmKs=
-			</data>
-		</dict>
-		<key>Headers/OSETConsult.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fIK/3O6lcOi4fuoOd2VS6JuguHE=
-			</data>
-			<key>hash2</key>
-			<data>
-			IGmfKhHdfYxRyFz+WmHKY3zigOXrilKI8bmIA7apZYA=
-			</data>
-		</dict>
-		<key>Headers/OSETCorrespondenceAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SZjzM0gh54wVBvdV+MEP8xkYje0=
-			</data>
-			<key>hash2</key>
-			<data>
-			1Yv1O8M+QiwwZtVFkEAJaYfis+04K6jI/bBMMLZ/8VU=
-			</data>
-		</dict>
-		<key>Headers/OSETCrazyDreamAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RXyEyZ2n9bMI3FzqzNU5l3/OAdI=
-			</data>
-			<key>hash2</key>
-			<data>
-			qqhJGJJp59Cptn9oO2qpebdFxgDaryng2GDqX/af4WU=
-			</data>
-		</dict>
-		<key>Headers/OSETDialAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			z2Eg3A3C15LKUvLvdQEyIev0ffM=
-			</data>
-			<key>hash2</key>
-			<data>
-			JJKbzJZ3ZuPUAKgjrqa4Vw86Q/ekpEGZLFmyblvQKxU=
 			</data>
 		</dict>
 		<key>Headers/OSETDrawAd.h</key>
@@ -2396,17 +2267,6 @@
 			HvzXHGMwc6dvr7c8e3zdOwsTGLfK95kZTLKjikqzwig=
 			</data>
 		</dict>
-		<key>Headers/OSETLootTreasureAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/NczsavD8mYESO/f1fDTTSMyAUA=
-			</data>
-			<key>hash2</key>
-			<data>
-			aa2txVoBEZMAEe3zVSss75tkCemgry0dvETGFr5ChAI=
-			</data>
-		</dict>
 		<key>Headers/OSETManager.h</key>
 		<dict>
 			<key>hash</key>
@@ -2444,11 +2304,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KzFF8NaOfV2pSVpf2HZ8aEN5DPY=
+			W+n5/f7NM3h8XOH4w9vaeR8FePw=
 			</data>
 			<key>hash2</key>
 			<data>
-			uRfqP4VTNwQenWoIfZsroEH6b9CEUpKLzIkCmPm9aZM=
+			hH8aMaamXmxjGgB0sti+MmQv0GmtQkJHmlR7gRxhEEY=
 			</data>
 		</dict>
 		<key>Headers/OSETSplashAd.h</key>
@@ -2460,50 +2320,6 @@
 			<key>hash2</key>
 			<data>
 			/mKIwytSCvC5b6+sWd+tr9JV137Ve3RuYbaYi/sdUzI=
-			</data>
-		</dict>
-		<key>Headers/OSETSuspendAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Sgz7QmKj/wN3stBfVKdaI2Qzr3U=
-			</data>
-			<key>hash2</key>
-			<data>
-			xZYuxkPSitrOGWnbgTVzpoORgMB+t3xBeJpo59k17D8=
-			</data>
-		</dict>
-		<key>Headers/OSETWeatherAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iPYBVu4hR7O3oHFyX4mKk6gJSA4=
-			</data>
-			<key>hash2</key>
-			<data>
-			DpV9v24kohExBBpb20CB2L8VLW6LlDBkLOEid52Qvf8=
-			</data>
-		</dict>
-		<key>Headers/OSETWebDialAd.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ZYg8swcQ2kZxRFvrWDqWYRc8Xe8=
-			</data>
-			<key>hash2</key>
-			<data>
-			jbfoFshI8YuqZMaq/jVWRpnXO5aSt8pceci+HlfmGxo=
-			</data>
-		</dict>
-		<key>Headers/OSETYDConsult.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SiPDfymlAqDPKmuPU/MAz6AcLFk=
-			</data>
-			<key>hash2</key>
-			<data>
-			FxHphvru1CJiUGyK+OW+VNer/YeofkQ2vIoeq4A44Gk=
 			</data>
 		</dict>
 		<key>JADYun.bundle/Info.plist</key>
@@ -3197,17 +3013,6 @@
 			<key>hash2</key>
 			<data>
 			PSP7aVEYh22FIL0iYKlTKl82/gDXdcWqVjcj5Iu11uA=
-			</data>
-		</dict>
-		<key>OSETTaskTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			z8kb29chZqeSof4fB1ZS62Gyo4s=
-			</data>
-			<key>hash2</key>
-			<data>
-			DoxzWQclp/T13l8gomW/lLxo2KsjvJSyLeDnwYap0l0=
 			</data>
 		</dict>
 		<key>OctAdSDK.bundle/Info.plist</key>
