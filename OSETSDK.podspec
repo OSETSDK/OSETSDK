@@ -27,7 +27,11 @@ Pod::Spec.new do |s|
   
   # 资源文件
   s.resources = "OSETSDK.bundle"
-    
+  # 编译器设置
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+    'VALID_ARCHS' => 'arm64'
+  }
   # Swift版本设置
   s.swift_version = '5.0'
   
