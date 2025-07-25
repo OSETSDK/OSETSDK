@@ -39,33 +39,32 @@ Pod::Spec.new do |s|
   # ================= 第三方依赖库 =================
   
   # 腾讯广点通
-  s.dependency 'GDTMobSDK', '>= 4.15.40'
+  s.dependency 'GDTMobSDK', '~> 4.15.40'
   
   s.dependency 'KSAdSDK'
 
   # 穿山甲（字节跳动）
-  s.dependency 'Ads-CN-Beta/BUAdSDK', '>= 6.9.0.6'
-  s.dependency 'Ads-CN-Beta/CSJMediation', '>= 6.9.0.6'
+  s.dependency 'Ads-CN-Beta/BUAdSDK', '~> 6.9.0.6'
+  s.dependency 'Ads-CN-Beta/CSJMediation', '~> 6.9.0.6'
   
   # Sigmob
-  s.dependency 'SigmobAd-iOS', '>= 4.19.0'
+  s.dependency 'SigmobAd-iOS', '~> 4.19.0'
   
   # 百度MobAdSDK
-  s.dependency 'BaiduMobAdSDK', '>= 5.373'
+  s.dependency 'BaiduMobAdSDK', '~> 5.373'
   
   # 倍至SDK
-  s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS', '>= 4.90.5.12'
+  s.dependency 'BeiZiSDK-iOS/BeiZiSDK-iOS', '~> 4.90.5.12'
   
   # 章鱼SDK
-  s.dependency 'OctopusSDK', '>= 1.6.3.4'
+  s.dependency 'OctopusSDK', '~> 1.6.3.4'
   
   # TanxSDK
-  s.dependency 'TanxSDK', '>= 3.7.8'
+  s.dependency 'TanxSDK', '~> 3.7.8'
   
   # 京东广告SDK
-  s.dependency 'JADYun', '>= 2.6.8'
+  s.dependency 'JADYun', '~> 2.6.8'
   
   # 趣盟广告SDK
-  s.dependency 'QuMengAdSDK', '>= 1.3.1'
-  
+  s.dependency 'QuMengAdSDK', '~> 1.3.4'
 end
