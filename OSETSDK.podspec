@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
   s.dependency 'KSAdSDK'
 
   # 穿山甲（字节跳动）
-  s.dependency 'Ads-CN-Beta/BUAdSDK', '>= 6.9.0.6'
-  s.dependency 'Ads-CN-Beta/CSJMediation', '>= 6.9.0.6'
+  s.dependency 'Ads-CN-Beta/BUAdSDK', '>= 6.9.0.6', '< 7.1.0.0'
+  s.dependency 'Ads-CN-Beta/CSJMediation', '>= 6.9.0.6', '< 7.1.0.0'
   
   # Sigmob
   s.dependency 'SigmobAd-iOS', '>= 4.19.0'
