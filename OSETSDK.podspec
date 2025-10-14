@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.3.9.1"
+  s.version      = "6.3.9.2"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   s.dependency 'OctopusSDK', '>= 1.6.3.4'
   
   # TanxSDK
-  s.dependency 'TanxSDK', '>= 3.7.8', '< 3.7.18'
+  s.dependency 'TanxSDK', '>= 3.7.8', '< 3.7.16'
   
   # 京东广告SDK
   s.dependency 'JADYun', '>= 2.6.8'
