@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 开屏加载失败
 - (void)splashLoadToFailed:(id)splashAd error:(NSError *)error;
 
+- (void)splashAdExposured:(id)splashAd;
+- (void)splashAdExposuredToFailed:(id)splashAd error:(NSError *)error;
+
 /// 开屏点击
 - (void)splashDidClick:(id)splashAd;
 
