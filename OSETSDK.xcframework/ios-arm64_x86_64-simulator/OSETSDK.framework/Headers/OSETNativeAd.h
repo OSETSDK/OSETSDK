@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)nativeExpressAdDidClose:(id)nativeExpressView;
 
 
+- (void)nativeExpressAdDidExposured:(id)nativeExpressView;
 
 @end
 
