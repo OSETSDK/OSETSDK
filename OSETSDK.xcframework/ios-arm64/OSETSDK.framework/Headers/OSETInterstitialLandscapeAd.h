@@ -32,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface OSETInterstitialLandscapeAd : OSETBaseAd
 
 @property (nonatomic,weak) id <OSETInterstitialLandscapeAdDelegate> delegate;
+@property(nonatomic,readonly,assign)NSInteger eCPM;
 
 /// 插屏初始化
 /// @param slotId 广告位ID
