@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.6.4.6"
+  s.version      = "6.6.7.0"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   # 趣盟广告SDK
   s.dependency 'QuMengAdSDK', '>= 1.3.1'
   s.dependency 'AdSetQDAAdSDK'
-  s.dependency 'AdSetQDBAdSDK'
+  s.dependency 'AdSetQDBAdSDK', '>= 7.7.4.31'
   s.dependency 'AdSetQDCAdSDK'
   s.dependency 'AdSetQDDAdSDK'
 end
