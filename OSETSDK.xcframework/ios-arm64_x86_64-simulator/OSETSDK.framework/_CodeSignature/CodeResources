@@ -184,9 +184,17 @@
 		<data>
 		rpSz9Whff95IcxgLlHjZyhe8xWs=
 		</data>
+		<key>AdSetQDDAdSDK.bundle/adsetqdd_actionButton.png</key>
+		<data>
+		CUdV/JsTI0KkDbwjbRSS5WeNdxM=
+		</data>
 		<key>AdSetQDDAdSDK.bundle/adsetqdd_ad@2x.png</key>
 		<data>
-		SiKMpeSEk8BowIiezq2d17O5oJo=
+		2zS/MtZHyK2Amzjz/YRwZUXlOD4=
+		</data>
+		<key>AdSetQDDAdSDK.bundle/adsetqdd_ad_rock.png</key>
+		<data>
+		GEqlMCVrUBxjCSXrzZnOV7BdB2U=
 		</data>
 		<key>AdSetQDDAdSDK.bundle/adsetqdd_back@3x.png</key>
 		<data>
@@ -220,6 +228,10 @@
 		<data>
 		vB8g9TAFIXnJ7lavN6uZG2RFQWc=
 		</data>
+		<key>AdSetQDDAdSDK.bundle/newTempRock.png</key>
+		<data>
+		JRhFSL9FudzReGtWfc8DHhlJMvQ=
+		</data>
 		<key>AdSetQDDAdSDK.bundle/rockBtn.png</key>
 		<data>
 		hml6tkga53stbkN3PFMxgYQvrvg=
@@ -235,10 +247,6 @@
 		<key>AdSetQDDAdSDK.bundle/splashRock.gif</key>
 		<data>
 		YB4HvPcu1XvMw+hmA2Pq2eaU/QI=
-		</data>
-		<key>AdSetQDDAdSDK.bundle/splashRock1.png</key>
-		<data>
-		uDSs6Oo0H98wezIc1kbHlROBrK4=
 		</data>
 		<key>AdSetQDDAdSDK.bundle/splash_arrow.png</key>
 		<data>
@@ -1833,11 +1841,25 @@
 			R19lKU8o3AYe0++3TREH/wSDV87AlFNx8jAU0qdNp6Y=
 			</data>
 		</dict>
+		<key>AdSetQDDAdSDK.bundle/adsetqdd_actionButton.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lgburCiU05nlfasPVUvimh9pwL0XgrGu+U46aR2rVjA=
+			</data>
+		</dict>
 		<key>AdSetQDDAdSDK.bundle/adsetqdd_ad@2x.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WLXnrxavUKTdfBwWPJ2z4VpaUtVlfdqT3k6z3ypKJ3k=
+			8faAkgjxVu1tAmGB/qaydDikyWW837KkN2msUp560Ro=
+			</data>
+		</dict>
+		<key>AdSetQDDAdSDK.bundle/adsetqdd_ad_rock.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W2d+WWuopyl4OWk5S9hi0SIhIxmKvbZ7jA93AxOOG+Y=
 			</data>
 		</dict>
 		<key>AdSetQDDAdSDK.bundle/adsetqdd_back@3x.png</key>
@@ -1896,6 +1918,13 @@
 			UaLzujaLkhUIxKn6Un6t84pMcwL0CIPvPx10CLTvBDE=
 			</data>
 		</dict>
+		<key>AdSetQDDAdSDK.bundle/newTempRock.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aN6NLqM6QqZV8ozrcTzRS8q/FaNyI8Wko4HW+uxFeSI=
+			</data>
+		</dict>
 		<key>AdSetQDDAdSDK.bundle/rockBtn.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1922,13 +1951,6 @@
 			<key>hash2</key>
 			<data>
 			YigDsszVGrnUehQMnZDPeYAI5jKbUna7sNmxhuMxKMA=
-			</data>
-		</dict>
-		<key>AdSetQDDAdSDK.bundle/splashRock1.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jzKpWBZ4F05bi8meZak3PjcmcEYeB6N7e9HxCcCd8c4=
 			</data>
 		</dict>
 		<key>AdSetQDDAdSDK.bundle/splash_arrow.png</key>
