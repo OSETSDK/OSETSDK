@@ -669,13 +669,29 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/OSETAdConfig.h</key>
+		<data>
+		gKChVkvy+7x5b5DTMBUEbReruC8=
+		</data>
+		<key>Headers/OSETAdError.h</key>
+		<data>
+		OfrQhxXbMjQphUvaKr3GXvCPFIU=
+		</data>
 		<key>Headers/OSETBannerAd.h</key>
 		<data>
 		a86rIuSN7LSmGBA1FoRsE/kzvMM=
 		</data>
+		<key>Headers/OSETBannerAdProtocol.h</key>
+		<data>
+		N7znWTzYGLT9o/XiJ0Nvlw+JA6Y=
+		</data>
 		<key>Headers/OSETBaseAd.h</key>
 		<data>
 		h5jvuhWGMyMEvBeLX4tXzDucfo4=
+		</data>
+		<key>Headers/OSETBaseAdProtocol.h</key>
+		<data>
+		dYUzw2Arvenha3n6O5WUqsMiCP0=
 		</data>
 		<key>Headers/OSETBaseView.h</key>
 		<data>
@@ -697,9 +713,17 @@
 		<data>
 		6OI4oYAjqcTEHLSBxGvCHt+1YhY=
 		</data>
+		<key>Headers/OSETInitConfig.h</key>
+		<data>
+		2eXC5dlX85crvfT0CPJdF+3U+ic=
+		</data>
 		<key>Headers/OSETInterstitialAd.h</key>
 		<data>
 		o/tAK6CGtiKyjnT3J/P/LAvoECU=
+		</data>
+		<key>Headers/OSETInterstitialAdProtocol.h</key>
+		<data>
+		Mqb/KXCr1SlwzUhRu4h/MeJIBHc=
 		</data>
 		<key>Headers/OSETInterstitialLandscapeAd.h</key>
 		<data>
@@ -713,21 +737,61 @@
 		<data>
 		lgVrmwiTejyliOte9buDb46p2sk=
 		</data>
+		<key>Headers/OSETMediaView.h</key>
+		<data>
+		vHHxT0TpPDJIdsrKeka29oaWDHA=
+		</data>
 		<key>Headers/OSETNativeAd.h</key>
 		<data>
 		vY0F1WycIc63l7wZ4B9M6OGXV04=
+		</data>
+		<key>Headers/OSETNativeAdProtocol.h</key>
+		<data>
+		BwE1J/sSYFTDcULyKpD+HZZG8pc=
+		</data>
+		<key>Headers/OSETNativeAdRenderer.h</key>
+		<data>
+		/iz04MMQY1BqXY7POmuHmxvCGiI=
+		</data>
+		<key>Headers/OSETNativeDataAd.h</key>
+		<data>
+		Q2Gcot16FqMeiPgpjGOXO7tuGlM=
+		</data>
+		<key>Headers/OSETNativeDataAdObject.h</key>
+		<data>
+		HXQvD/D1mIQLRS/k3VSHNZujij0=
+		</data>
+		<key>Headers/OSETNativeDataAdProtocol.h</key>
+		<data>
+		cfr+Y2DKG1/F9GpwxZgDRBLYg4Y=
 		</data>
 		<key>Headers/OSETRewardVideoAd.h</key>
 		<data>
 		KtzgNTWD5yo4XVJQDSJuJB4YeBc=
 		</data>
+		<key>Headers/OSETRewardedVideoAdProtocol.h</key>
+		<data>
+		VrGoIZk6/kUB9oaYobzR3qf+KZQ=
+		</data>
 		<key>Headers/OSETSDK.h</key>
 		<data>
-		W+n5/f7NM3h8XOH4w9vaeR8FePw=
+		t/3WG0BCEauRbwLuKnG8jtRiOws=
+		</data>
+		<key>Headers/OSETSDKInitializable.h</key>
+		<data>
+		JEBK9fWRcUFb9sXk26M85jXYQHI=
+		</data>
+		<key>Headers/OSETShakeView.h</key>
+		<data>
+		VB5O2xBgobVqLaD4r90zW6oyp0U=
 		</data>
 		<key>Headers/OSETSplashAd.h</key>
 		<data>
 		Y4S0z3+jWSGHcj3XdZCNE6RFTOM=
+		</data>
+		<key>Headers/OSETSplashAdProtocol.h</key>
+		<data>
+		Wb18GJe0Hb8HHiIiiKom2TE41K8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -2584,6 +2648,20 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Headers/OSETAdConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ftU3cGgSjh6e7pW5fSZaIYjhlychbVAPeUIVmrEsj3k=
+			</data>
+		</dict>
+		<key>Headers/OSETAdError.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HOpbP3ETTbH3yhfl9pI+p2kpJqPano2hyM0GEFgCBUs=
+			</data>
+		</dict>
 		<key>Headers/OSETBannerAd.h</key>
 		<dict>
 			<key>hash2</key>
@@ -2591,11 +2669,25 @@
 			nDcMR7B0luUaxt+RqaXNScqY83S1Ky68DosOgv0OO+M=
 			</data>
 		</dict>
+		<key>Headers/OSETBannerAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C8KZjnNqcVMQRRYMNIMSQJ3uSW1vrKBe6Hk03hIdZus=
+			</data>
+		</dict>
 		<key>Headers/OSETBaseAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			6zVXLhEuD3LdZ+96mF6u4VkdV8qrDZrfGMDuK1Il5aE=
+			</data>
+		</dict>
+		<key>Headers/OSETBaseAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BGPrXuAVh2DYn5zn5CYbcjEH9xZq4dXnoCLo+wAqoUU=
 			</data>
 		</dict>
 		<key>Headers/OSETBaseView.h</key>
@@ -2633,11 +2725,25 @@
 			tvoo2SjX8xoYS+IUOAsnREIJ0D6Cz1T21LZWB905r5c=
 			</data>
 		</dict>
+		<key>Headers/OSETInitConfig.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fTOyBhxgUeWumzhQW/iKEhSMYjFXNhU228uBHyaHHhY=
+			</data>
+		</dict>
 		<key>Headers/OSETInterstitialAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			goXYZ4BV5oRcoKGzp4e3iZO0I/FrVWDb6EbjJe2gfH4=
+			</data>
+		</dict>
+		<key>Headers/OSETInterstitialAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lpqe6cDYoUbz1ZRHOQFrvDoQ1uOQotHFiZgRcntBV8w=
 			</data>
 		</dict>
 		<key>Headers/OSETInterstitialLandscapeAd.h</key>
@@ -2661,11 +2767,53 @@
 			LagCJGbXiGehh7aK1pvGUeS/ASp8Fbos2io0JqlGa44=
 			</data>
 		</dict>
+		<key>Headers/OSETMediaView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WnS26ChcOdMet4Ek2W1xkBstQAMpyGnSpvSuBpKZKbc=
+			</data>
+		</dict>
 		<key>Headers/OSETNativeAd.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			e1mZYmQ6pv9kfczh9Pva8wdQObtakac6/Ey6zKNqsyY=
+			</data>
+		</dict>
+		<key>Headers/OSETNativeAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m0B4ND1zzeFxjmZij9hsfe34Ov8H5MMGZO46t5oz0Lg=
+			</data>
+		</dict>
+		<key>Headers/OSETNativeAdRenderer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oGINd4GCRs6iHOA81/qqzeFJVGhkozOmqtEkFpGVI1E=
+			</data>
+		</dict>
+		<key>Headers/OSETNativeDataAd.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nokfnlCtwjeFsSYaJVNmNoWZRkoA8j/iEbqGHa9/xKI=
+			</data>
+		</dict>
+		<key>Headers/OSETNativeDataAdObject.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RSeEAbXKp03D9DplQ849mHkoPkK2WZ/o8K87KxuOXHg=
+			</data>
+		</dict>
+		<key>Headers/OSETNativeDataAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AnGVpQzte8VytO4IDQ6ZM1LZpX3iAy+IJEK5x5qA/JI=
 			</data>
 		</dict>
 		<key>Headers/OSETRewardVideoAd.h</key>
@@ -2675,11 +2823,32 @@
 			8fNRna5ApH9pH288ZLR5Jhh8zCBz88gCA+JZkPH0SZE=
 			</data>
 		</dict>
+		<key>Headers/OSETRewardedVideoAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IOFJwqGGNzMdeS/QJCK8dYMCb2RI2PAVJd86Mn0ozXQ=
+			</data>
+		</dict>
 		<key>Headers/OSETSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hH8aMaamXmxjGgB0sti+MmQv0GmtQkJHmlR7gRxhEEY=
+			2+n8EcjBOLqpduyE2dp4OkN1/Ye4mxNsPo8hBlZxb9o=
+			</data>
+		</dict>
+		<key>Headers/OSETSDKInitializable.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZrrTCENfrkXu1mRlKob/HeI40f5SRXpdFoz3mUNZVZo=
+			</data>
+		</dict>
+		<key>Headers/OSETShakeView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1oVCQb6TJIRIjBsOUY/6950St/zx5Sr9Jbijh2T1kJY=
 			</data>
 		</dict>
 		<key>Headers/OSETSplashAd.h</key>
@@ -2687,6 +2856,13 @@
 			<key>hash2</key>
 			<data>
 			f9A9bOPhB9rsugvQQoSZaBrXAtZhai0Wz+JT+BZyzmw=
+			</data>
+		</dict>
+		<key>Headers/OSETSplashAdProtocol.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lGFCw2lbJ5Wo2I2gqXwrvDtz57oo4Lj9NVqYZ2fJM9k=
 			</data>
 		</dict>
 		<key>JADYun.bundle/Info.plist</key>
