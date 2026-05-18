@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "OSETSDK"
-  s.version      = "6.6.7.4"
+  s.version      = "6.6.7.5"
   s.summary      = "AdSet广告对接聚合类"
   s.description  = <<-DESC
                     OSETSDK 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -40,10 +40,9 @@ Pod::Spec.new do |s|
   s.dependency 'KSAdSDK'
 
   # 穿山甲（字节跳动）
-  s.dependency 'Ads-CN-Beta/BUAdSDK', '>= 6.9.0.6'
-  s.dependency 'Ads-CN-Beta/CSJMediation', '>= 6.9.0.6'
-  
-  # Sigmob
+  s.dependency 'Ads-CN', '>= 6.9.0.6'
+
+    # Sigmob
   s.dependency 'SigmobAd-iOS', '>= 4.19.0'
   
   # 百度MobAdSDK
